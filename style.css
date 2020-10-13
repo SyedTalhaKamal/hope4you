@@ -1,0 +1,491 @@
+/* top */
+
+.top {
+    border-top: 3px solid #ff9000
+}
+
+.topTextN {
+    color: #0a112a;
+    font-size: 12px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.topText {
+    color: #0a112a;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+}
+
+.phoneIcon {
+    width: 30px;
+    height: 33px;
+}
+
+.emailIcon {
+    width: 40px;
+    height: 33px;
+}
+
+.socialIcons {
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+/* NavBar */
+
+.mynav {
+    background-color: #0a112a !important;
+}
+
+#navBtn {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-color: #fefefe !important;
+}
+
+.nav-link {
+    color: #fefefe !important;
+}
+
+li.nav-item.active {
+    background-color: #feb300 !important;
+}
+
+.nav-link:hover {
+    background-color: #feb300 !important;
+}
+
+.dropdown-item {
+    padding: 10px !important;
+    color: #0a112a !important;
+}
+
+.dropdown-item:hover {
+    background-color: #0a112a !important;
+    color: #fefefe !important;
+    border-radius: 25px !important;
+}
+
+.dropdown-menu {
+    border-radius: 25px;
+}
+
+/* Slider */
+
+#sliderImg {
+    background-image: url('images/Layer1356.png');
+    padding: 335px 0px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.sliderTextH {
+    /* position: absolute; */
+    font-size: 80px;
+    color: white;
+    /* bottom: 262px;
+    left: 45px; */
+}
+
+.sliderTextT {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 11px;
+}
+
+.sliderBtn1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #feb800;
+    color: white;
+    border: none;
+}
+
+.sliderBtn2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 22px;
+    background-color: #01ae42;
+    color: white;
+    border: none;
+}
+
+/* Second Section */
+
+.globalBackground {
+    background-image: url('images/Bg.png')
+}
+
+.globalH {
+    font-size: 40px;
+    color: #0a112a;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+}
+
+.globalBtnBorder {
+    border: 2px solid #fec200;
+    padding-right: 5px;
+}
+
+#pills-tab {
+    border: 1px solid #feb800 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #fec200;
+}
+
+.mission a {
+    color: black !important;
+}
+
+.mission a:hover {
+    color: white !important;
+}
+
+.mission .active {
+    color: white !important;
+}
+
+.introBackground {
+    background-color: #fec200;
+    color: white;
+    padding: 3px !important;
+}
+
+.globalPara {
+    font-family: 'Manjari', sans-serif;
+    color: #8b8b8f;
+    font-size: 17px;
+    text-align: center;
+}
+
+.globalImg {
+    width: 100%;
+}
+
+/* Third Section */
+
+.submitBackground {
+    background-image: url('images/Layer1375.png');
+    background-position-x: center;
+    padding: 103px 0px;
+}
+
+.formMain {
+    background-color: white;
+}
+
+.thirdMain {
+    position: relative;
+}
+
+.submitBackgroundsection {
+    background-color: white;
+    position: absolute;
+    bottom: 190px;
+}
+
+.formVideo {
+    background-image: url('images/hope4you(001)_03_14.png');
+    background-position-x: center;
+    background-position-y: center;
+}
+
+input.mt-2.pt-2,
+input#browser,
+textarea.mt-2.pt-2 {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e6e5e2;
+}
+
+.submitImg {
+    height: 325px;
+}
+
+.submitBtnAllign {
+    text-align: center;
+}
+
+.submitBtn {
+    background-color: #01ae42;
+    color: white;
+    padding: 10px 20px;
+}
+
+.submitArea {
+    width: 100%;
+}
+
+/* Hope starts Here */
+
+.hopeHeading {
+    text-align: center;
+    font-size: 40px;
+    color: #0a112a;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+}
+
+.hopeArea {
+    position: relative;
+}
+
+.hopeSection {
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px black;
+    position: absolute;
+    bottom: 5px;
+}
+
+.hopeH {
+    color: #0a112a;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+}
+
+/* Testimonial */
+
+#testimonialImg {
+    background-image: url('images/hope4you(001)_02.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.testiH {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* Events */
+
+.pRelative {
+    position: relative;
+}
+
+.blog {
+    /* margin-left: 40%;
+        margin-right: 40%; */
+    background-color: #01ae42;
+    color: white;
+    padding: 17px 30px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 385px;
+    left: 215px;
+}
+
+/* Footer */
+
+.footerH {
+    color: #0a112a;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+}
+
+.footerSubH {
+    color: #0a112a;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+}
+
+#subscribeInput {
+    border: 1px solid #feb300;
+    padding: 10px 5px;
+    width: 545px;
+}
+
+#subscribeBtn {
+    background-color: #feb300;
+    color: #fff;
+    border: none;
+}
+
+.followH {
+    font-size: 28px;
+    color: #0a112a;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+}
+
+.contact {
+    font-size: 20px;
+    color: #0a112a;
+    font-family: 'Manjari', sans-serif;
+}
+
+.footerBackground {
+    background-color: #1a1a1a;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+#copyright {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+    #sliderImg {
+        padding: 110px 0px;
+    }
+    .sliderTextH {
+        font-size: 48px;
+        bottom: 195px;
+        left: 45px;
+    }
+    .sliderTextT {
+        font-size: 18px;
+        bottom: 163px;
+        left: 93px;
+        letter-spacing: 2px;
+    }
+    .sliderBtn1 {
+        font-size: 15px;
+        padding: 5px 10px;
+        bottom: 118px;
+        left: 140px;
+    }
+    .sliderBtn2 {
+        font-size: 15px;
+        padding: 5px 22px;
+        bottom: 118px;
+        left: 304px;
+    }
+    .submitBackgroundsection {
+        bottom: 11px;
+        left: 126px;
+    }
+    .submitArea {
+        width: 41%;
+    }
+    .pRelative {
+        position: static;
+    }
+    .blog {
+        margin-left: 40%;
+        margin-right: 30%;
+        padding: 5px 10px;
+        position: static;
+    }
+}
+
+@media (max-width: 991px) {
+    #sliderImg {
+        padding: 110px 0px;
+    }
+    .sliderTextH {
+        font-size: 36px;
+        bottom: 333px;
+        left: 39px;
+    }
+    .sliderTextT {
+        font-size: 14px;
+        bottom: 308px;
+        left: 60px;
+        letter-spacing: 2px;
+    }
+    .sliderBtn1 {
+        font-size: 12px;
+        padding: 5px 10px;
+        bottom: 270px;
+        left: 140px;
+    }
+    .sliderBtn2 {
+        font-size: 12px;
+        padding: 5px 10px;
+        bottom: 270px;
+        left: 274px;
+    }
+}
+
+@media (max-width: 767px) {
+    #sliderImg {
+        padding: 130px 0px;
+    }
+    .sliderTextH {
+        font-size: 22px;
+        bottom: 405px;
+        left: 39px;
+    }
+    .sliderTextT {
+        font-size: 10px;
+        bottom: 385px;
+        left: 59px;
+        letter-spacing: 0px;
+    }
+    .sliderBtn1 {
+        font-size: 9px;
+        padding: 5px 2px;
+        bottom: 351px;
+        left: 79px;
+    }
+    .sliderBtn2 {
+        font-size: 9px;
+        padding: 5px 2px;
+        bottom: 351px;
+        left: 169px;
+    }
+    #subscribeInput {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #sliderImg {
+        padding: 80px 0px;
+    }
+    .sliderTextH {
+        font-size: 19px;
+    }
+        /*bottom: 414px;
+        left: 20px;
+    }
+    .sliderTextT {
+        font-size: 8px;
+        bottom: 401px;
+        left: 33px;
+        letter-spacing: 0px;
+    }
+    .sliderBtn1 {
+        font-size: 7px;
+        padding: 5px 5px;
+        bottom: 378px;
+        left: 44px;
+    }
+    .sliderBtn2 {
+        font-size: 7px;
+        padding: 5px 5px;
+        bottom: 378px;
+        left: 123px;
+    } */
+    }
